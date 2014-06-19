@@ -15,11 +15,18 @@ Installation
 Folder Structure
 
 1) app/code/community/Misc/
+
 2) app/design/frontend/default/base/template/productslider
+
 3) app/design/frontend/default/base/layout/productslider
+
 4) js/productslider
+
 5) skin/frontend/base/default/css/productslider.css
+
 6) media/productslider/images
+
+7) app/etc/modules/Misc_ProductSlider.xml
 
 
 ================
