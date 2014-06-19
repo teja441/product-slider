@@ -63,7 +63,7 @@ public function getproducts($categoryId){
  
 public function getProductImages($products){
 
-Mage::log($products->getData(),3,"products_data.log");
+
 $images="<ul id='carousel_ul'>";	
 foreach($products as $prod){
 
