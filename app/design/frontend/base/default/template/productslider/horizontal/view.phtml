@@ -1,0 +1,17 @@
+<?php 
+$categoryId=$this->getcategoryId();
+$images=$this->getProductImages($categoryId);
+?>
+<div id='carousel_container'>
+<div id='left_scroll'><img src="<?php echo Mage::getBaseUrl('media').'productslider/images/left.png';?>" /></div>
+<div id='carousel_inner'>
+<?php echo $images;?>
+</div>
+  <div id='right_scroll'><img src="<?php echo Mage::getBaseUrl('media').'productslider/images/right.png';?>" /></div>
+</div>
+</div>
+<script type="text/javascript" src="js/productslider/jquery.min.js"></script>
+<script type="text/javascript" src="/js/productslider/productslider.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/productslider.css') ?>" media="all" />
+
+
